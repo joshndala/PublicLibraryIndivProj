@@ -11,6 +11,10 @@ We are developing a booking system designed for a public library. The system sho
 - Log-in System
 - Admin panel
 
+<h2> **New Features** </h2>
+<h3>Feature 1- Book to TV Series Search</h3>
+Hollywood often gets inspiration from books, and users will be able to explore that. This feature will allow users to search for a book that they may have read or are interested in reading, and the results will show whether or not the book has become a TV show. Information includes the genre, average runtime, average rating, the date the show first premiered, and the description of the show. 
+
 <h2> How The GUI Works</h2>
 
 JavaFX: We utilized the JavaFX public library and its companion program, Scene Builder, to create the visual design of the graphic interface. The library utlizes java classes and XML files to showcase the screens.
