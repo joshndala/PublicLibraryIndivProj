@@ -34,4 +34,4 @@ Screens: Each screen has a java class which operates its functions and methods a
 </ul>
 
 <h2>How To Compile and Run The Code</h2>
-At the moment, you can clone the repository onto your device. Once you have access to the directory, load it on an IDE platform of your choice and run the "Login.java" file from the "BookManagementProject" folder
+At the moment, you can clone the repository onto your device. Once you have access to the directory, load it on the IntelliJ IDE platform and run the "Login.java" file from the "BookManagementProject" folder.
