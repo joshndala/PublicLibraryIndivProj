@@ -13,7 +13,13 @@ We are developing a booking system designed for a public library. The system sho
 
 <h2> **New Features** </h2>
 <h3>Feature 1- Book to TV Series Search</h3>
-Hollywood often gets inspiration from books, and users will be able to explore that. This feature will allow users to search for a book that they may have read or are interested in reading, and the results will show whether or not the book has become a TV show. Information includes the genre, average runtime, average rating, the date the show first premiered, and the description of the show. 
+Hollywood often gets inspiration from books, and users will be able to explore that. This feature will allow users to search for a book that they may have read or are interested in reading, and the results will show whether or not the book has become a TV show. Information includes the genre, average runtime, average rating, the date the show first premiered, and the description of the show. Google Books API was implemented. 
+
+<h3>Feature 2- Book Description</h3>
+Before a user decides to check out a book, they have the opportunity to see the description of the book within the system. This way, they can find out if they could be interested in the storyline. TVMaze API was implemented. 
+
+<h3>Feature 3 (minor)- Jokes</h3>
+Start the day with some humor! Every time a user logs in, a joke will appear at the top of the dashboard. The JokesAPI was implemented. 
 
 <h2> How The GUI Works</h2>
 
