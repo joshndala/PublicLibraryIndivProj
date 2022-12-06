@@ -5,17 +5,18 @@
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="500.0" prefWidth="700.0" styleClass="login-form" stylesheets="@loginDesign.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bookmanagementproject.AllBooksUser">
+<AnchorPane prefHeight="655.0" prefWidth="700.0" styleClass="login-form" stylesheets="@loginDesign.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bookmanagementproject.AllBooksUser">
    <children>
       <Label layoutX="282.0" layoutY="22.0" text="Books" textFill="WHITE">
          <font>
             <Font name="Cochin" size="52.0" />
          </font>
       </Label>
-      <AnchorPane layoutX="56.0" layoutY="82.0" prefHeight="377.0" prefWidth="588.0">
+      <AnchorPane layoutX="56.0" layoutY="82.0" prefHeight="278.0" prefWidth="588.0">
          <children>
-            <TableView fx:id="booksTableUser" fixedCellSize="40.0" layoutX="14.0" layoutY="14.0" prefHeight="349.0" prefWidth="560.0">
+            <TableView fx:id="booksTableUser" fixedCellSize="40.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#displaySelected" prefHeight="257.0" prefWidth="560.0">
                <columns>
                   <TableColumn fx:id="col_bookName" prefWidth="113.0" text="Book Name" />
                   <TableColumn fx:id="col_author" prefWidth="90.0" text="Author" />
@@ -27,6 +28,27 @@
                   <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
                </columnResizePolicy>
             </TableView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="70.0" layoutY="373.0" prefHeight="256.0" prefWidth="581.0">
+         <children>
+            <Label layoutX="24.0" layoutY="46.0" prefWidth="42.0" text="Title: " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="24.0" layoutY="86.0" text="Description:" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Text fx:id="title" fill="WHITE" layoutX="75.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="491.30096435546875">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text fx:id="rating" fill="WHITE" layoutX="139.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="132.10740661621094" />
+            <Text fx:id="description" fill="WHITE" layoutX="25.0" layoutY="124.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="540.9053802490234" />
          </children>
       </AnchorPane>
    </children>
